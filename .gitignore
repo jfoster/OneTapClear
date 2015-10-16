@@ -1,0 +1,12 @@
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+.theos/
+build/
+_/
+
+*.sublime-project
+*.sublime-workspace
