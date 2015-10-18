@@ -39,7 +39,6 @@
 
 -(void)setTarget:(id)arg1 forClearButtonAction:(id)arg2 {
 	%orig(arg1, arg2);
-	NSLog(@"[OneTapClear] %@", arg2);
 	MSHookIvar<id>(self,"_xAction") = [arg2 copy];
 }
 
