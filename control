@@ -1,9 +1,9 @@
 Package: com.rave.onetapclear
 Name: OneTapClear
 Depends: mobilesubstrate, firmware (>= 8)
-Version: 1.1
+Version: 1.1.9
 Architecture: iphoneos-arm
 Description: Clear notifications from the NC with a single tap.
-Maintainer: Jacob Rave <ravejacob+onetapclear@gmail.com>
-Author: Jacob Rave <ravejacob+onetapclear@gmail.com>
+Maintainer: Jacob Rave <ravejacob@gmail.com>
+Author: Jacob Rave <ravejacob@gmail.com>
 Section: Tweaks

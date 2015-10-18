@@ -1,8 +1,10 @@
+# export DEBUG = 1
+# export PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
+
 export GO_EASY_ON_ME = 1
 
 export THEOS_DEVICE_IP = jacobs-ipad
 export THEOS_BUILD_DIR = build
-export PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
 export ARCHS = armv7 arm64
 export TARGET = iphone:clang:latest

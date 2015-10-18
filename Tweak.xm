@@ -15,6 +15,7 @@
 %hook SBNotificationCenterHeaderView
 
 -(void)setClearButtonFinalAction:(id)arg1 {
+	%orig(arg1);
 	self.clearButtonVisibleAction = arg1;
 }
 
@@ -37,7 +38,9 @@
 %hook SBNotificationCenterHeaderView
 
 -(void)setTarget:(id)arg1 forClearButtonAction:(id)arg2 {
-	MSHookIvar<id>(self,"_xAction") = arg2;
+	%orig(arg1, arg2);
+	NSLog(@"[OneTapClear] %@", arg2);
+	MSHookIvar<id>(self,"_xAction") = [arg2 copy];
 }
 
 %end
