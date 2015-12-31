@@ -8,5 +8,4 @@ Thumbs.db
 build/
 _/
 
-*.sublime-project
 *.sublime-workspace
