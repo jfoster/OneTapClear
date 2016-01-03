@@ -15,4 +15,4 @@ To build this project simply run `make` from the project root.
 
 ### Installing
 
-Make your THEOS_DEVICE_IP flag is set and run `make package install`
+Make sure your THEOS_DEVICE_IP flag is set and run `make package install`
