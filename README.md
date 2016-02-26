@@ -7,7 +7,7 @@
 
 ### Prerequisites
 
-For the best results use [kirb/theos](https://github.com/kirb/theos) fork to build this project, instuctions on converting your existing theos installation are on it's wiki pages.
+[Theos](https://github.com/theos/theos)
 
 ### Building
 
