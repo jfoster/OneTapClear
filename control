@@ -4,6 +4,6 @@ Depends: mobilesubstrate (>= 0.9.6000), firmware (>= 8)
 Version: 1.3.5
 Architecture: iphoneos-arm
 Description: Clear notifications from the NC with a single tap.
-Maintainer: Jacob Rave <ravejacob@gmail.com>
-Author: Jacob Rave <ravejacob@gmail.com>
+Maintainer: Jacob Foster <jacobfoster@pm.me>
+Author: Jacob Foster <jacobfoster@pm.me>
 Section: Tweaks
